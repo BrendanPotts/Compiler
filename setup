@@ -1,0 +1,6 @@
+#! /bin/bash
+echo "Starting setup"
+cp -r ~/Desktop/C++\ Compiler/.vscode .
+cp ~/Desktop/C++\ Compiler/compile .
+echo "Setup Complete"
+rm setup

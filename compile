@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Compiling"
+# compiles all cpp files calles the exacutable main
+g++ -o main *.cpp
+echo "Finished Compiling"
+echo "Running"
+sleep 2
+# runs main
+./main
+echo "Exiting"
+# removes main after execution
+rm main
+sleep 2
