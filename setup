@@ -1,6 +1,29 @@
+# #! /bin/bash
+# echo "Starting setup"
+# #cp -r ~/Compiler/.vscode .
+# cp ~/Compiler/compile .
+# echo "Setup Complete"
+# rm setup
+
+##################
+## Setup Rework ##
+##################
+
 #! /bin/bash
-echo "Starting setup"
-#cp -r ~/Compiler/.vscode .
-cp ~/Compiler/compile .
-echo "Setup Complete"
-rm setup
+echo 'startin setup'
+echo '-------------'
+echo 'Please select setup Directory: '
+
+read dir_name
+
+echo 'is this the correct Directory:' $dir_name
+read usr_ans
+declare -l usr_ans
+usr_ans=$usr_ans
+
+# echo 'Answer =' $usr_ans
+
+if [$usr_ans = y]
+then
+    # move to directory to set Setup
+fi
